@@ -354,4 +354,135 @@ body {
   position: absolute;
   left: 20px;
   bottom: 0;
+}
+.container .workout {
+  height: 1439px;
+  position: relative;
+}
+.container .workout .overlay-bg {
+  width: 999px;
+  height: 733px;
+  background: rgba(255, 255, 255, 0.1);
+  position: absolute;
+  right: -121px;
+}
+.container .workout .workout-text {
+  display: flex;
+  -moz-column-gap: 119px;
+       column-gap: 119px;
+}
+.container .workout .workout-text .title {
+  width: 100%;
+  max-width: 523px;
+  height: 480px;
+  padding-top: 100px;
+  position: relative;
+}
+.container .workout .workout-text .title h6 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120px;
+  letter-spacing: -2px;
+  position: absolute;
+  z-index: 2;
+}
+.container .workout .workout-text .title .text-border {
+  position: absolute;
+  z-index: 1;
+  top: 480px;
+  left: -30px;
+}
+.container .workout .workout-text .description {
+  padding-top: 130px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.container .workout .workout-text .description p {
+  width: 100%;
+  max-width: 558px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.5px;
+}
+.container .workout .workout-text .description .button {
+  width: 200px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  background: #25ab75;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+.container .workout .workout-images {
+  display: flex;
+}
+.container .workout .workout-images .image:nth-child(1) {
+  position: absolute;
+  top: 733px;
+  left: 0;
+}
+.container .workout .workout-images .image:nth-child(1) img {
+  width: 321px;
+  height: 321px;
+}
+.container .workout .workout-images .image:nth-child(2) {
+  position: absolute;
+  top: 1054px;
+  left: 321px;
+}
+.container .workout .workout-images .image:nth-child(2) img {
+  width: 321px;
+  height: 321px;
+}
+.container .workout .workout-images .image:nth-child(3) {
+  position: absolute;
+  top: 540px;
+  right: 0;
+}
+.container .workout .workout-images .image:nth-child(3) img {
+  width: 558px;
+  height: 514px;
+}
+.container .workout .workout-images .image:nth-child(3) .text {
+  padding: 12px 20px;
+}
+.container .workout .workout-images .image .text {
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container .workout .workout-images .image .title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 125% */
+  letter-spacing: 0.5px;
+}
+.container .workout .workout-images .image .status {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.5px;
+}
+.container .workout-categories {
+  padding: 150px 0;
 }/*# sourceMappingURL=style.css.map */

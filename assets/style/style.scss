@@ -409,4 +409,136 @@ body {
       }
     }
   }
+  .workout {
+    height: 1439px;
+    position: relative;
+    .overlay-bg {
+      width: 999px;
+      height: 733px;
+      background: rgb($color-white, 0.1);
+      position: absolute;
+      right: -121px;
+    }
+    .workout-text {
+      display: flex;
+      column-gap: 119px;
+      .title {
+        width: 100%;
+        max-width: 523px;
+        height: 480px;
+        padding-top: 100px;
+        position: relative;
+        h6 {
+          color: $color-white;
+          font-family: $font;
+          font-size: 120px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 120px;
+          letter-spacing: -2px;
+          position: absolute;
+          z-index: 2;
+        }
+        .text-border {
+          position: absolute;
+          z-index: 1;
+          top: 480px;
+          left: -30px;
+        }
+      }
+      .description {
+        padding-top: 130px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+        p {
+          width: 100%;
+          max-width: 558px;
+          color: rgb($color-white, 0.6);
+          font-family: $font;
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 50px;
+          letter-spacing: 0.5px;
+        }
+        .button {
+          width: 200px;
+          height: 70px;
+          border: none;
+          border-radius: 10px;
+          background: $color-green;
+          color: $color-white;
+          font-family: $font;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 22px;
+          letter-spacing: 1px;
+        }
+      }
+    }
+    .workout-images {
+      display: flex;
+      .image {
+        &:nth-child(1) {
+          position: absolute;
+          top: 733px;
+          left: 0;
+          img {
+            width: 321px;
+            height: 321px;
+          }
+        }
+        &:nth-child(2) {
+          position: absolute;
+          top: 1054px;
+          left: 321px;
+          img {
+            width: 321px;
+            height: 321px;
+          }
+        }
+        &:nth-child(3) {
+          position: absolute;
+          top: 540px;
+          right: 0;
+          img {
+            width: 558px;
+            height: 514px;
+          }
+          .text {
+            padding: 12px 20px;
+          }
+        }
+        .text {
+          padding: 12px 0;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+        }
+        .title {
+          color: $color-white;
+          font-family: $font;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 25px; /* 125% */
+          letter-spacing: 0.5px;
+        }
+        .status {
+          color: rgb($color-white, 0.6);
+          font-family: $font;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 14px; /* 100% */
+          letter-spacing: 0.5px;
+        }
+      }
+    }
+  }
+  .workout-categories {
+    padding: 150px 0;
+  }
 }
